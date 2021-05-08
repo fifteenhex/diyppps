@@ -30,6 +30,7 @@ attach your PPPS signals to the pads from the buttons.
 
 Maybe a small flex pcb could make this process easier.
 
-## Hub that are no good
+## Hubs that are no good
 
-- Sabrent 4 port (HB-UM43): GL3510 hub doesn't have per port port control pins, switches directly connect and disconnect VBUS from the ports.
+- Sabrent 4 port (HB-UM43): GL3510 hub doesn't have per port port control pins
+  switches directly connect and disconnect VBUS from the ports.
