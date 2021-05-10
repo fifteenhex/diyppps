@@ -30,6 +30,16 @@ attach your PPPS signals to the pads from the buttons.
 
 Maybe a small flex pcb could make this process easier.
 
+## Hubs that are good
+
+- RSH-516-4 - Realtek RTS5411 - can be done, need good soldering skills
+- "Atolla USB 3.0 HUB " - Renesas UPD720210 - Much easier, PPPS pins are
+   brought out onto resistors so you can very easily tack wires on.
+   PPPS signals are 3.3v and push-pull and can't directly drive the p-channel
+   mosfets used to control the VBUS lines. You need a 3.3V -> 5v logic
+   doodad or make some transistors to drive the mosfet gates.
+   See [here](/atolla/).
+
 ## Hubs that are no good
 
 - Sabrent 4 port (HB-UM43): GL3510 hub doesn't have per port port control pins
